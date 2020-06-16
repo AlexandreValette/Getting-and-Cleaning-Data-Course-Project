@@ -15,8 +15,12 @@ Finally, the script generates a new dataset with all the average measures for ea
 #Variables
 
     x_train, y_train, x_test, y_test, subject_train and subject_test : the data as downloaded.
-    train, test : resulting dataset from the merges (see 1.)
-    features : the correct names for the x_data dataset,
-    A similar approach is taken with activity names through the activities variable.
-    all_data merges x_data, y_data and subject_data in a big dataset.
+    train : resulting dataset from the 3 train dataset.
+    test : resulting dataset from the 3 test dataset.
+    df : resulting dataset from merging train and test.
+    featuresWanted : the correct names for the x_data dataset.
+    extracts : dataset with the filtered data.
+    new_names : vector with formatted column names for extracts.
+    extracts.melted : dataset with the melted data from extracts.
+    extracts.mean  : dataset with the final result.
     
