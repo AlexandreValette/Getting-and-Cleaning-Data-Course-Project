@@ -1,6 +1,6 @@
-#Code book for AlexandreValette/Getting-and-Cleaning-Data-Course-Project
+# Code book for AlexandreValette/Getting-and-Cleaning-Data-Course-Project
 
-#Script
+# Script
 
 The script run_analysis.R performs the 5 steps described in the course project's definition.
 
@@ -12,7 +12,7 @@ The script run_analysis.R performs the 5 steps described in the course project's
 
 Finally, the script generates a new dataset with all the average measures for each subject and activity type (tidy.txt).
 
-#Variables
+# Variables
 
     x_train, y_train, x_test, y_test, subject_train and subject_test : the data as downloaded.
     train : resulting dataset from the 3 train dataset.
